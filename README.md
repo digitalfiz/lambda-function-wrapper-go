@@ -4,7 +4,11 @@
 lambda-function passes any data from aws to your app so you can parse it out 
 however you want.
 
-The script in this repo assume you have [gox] installed.
+The scripts in this repo make a few assumptions:
+- Your on linux or osx
+- You have [gox] installed.
+
+If these are not true your on your own getting the go app compiled and zipping it all up.
 
 Run `./scripts/build.sh` to compile the app and copy the files to the build folder.
 Then run `./scripts/package.sh` to compress the app into app.zip so you can upload to lambda.
