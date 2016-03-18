@@ -16,4 +16,4 @@ cd $CUR_DIR
 
 echo "Copying the node files to the build folder..."
 cp index.js build/index.js
-cp lambda-function build/lambda-function
+cp run build/run
