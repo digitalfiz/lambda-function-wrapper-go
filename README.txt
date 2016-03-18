@@ -1,17 +1,11 @@
-lambda-function-wrapper
+lambda-function-wrapper-go
 
-See also:
 
-  http://alestic.com/TBD
+lambda-function passes any data from aws to your app so you can parse it out 
+however you want.
 
-This is a simple nodejs Lambda function wrapper that passes the Lambda
-event JSON to a program named "lambda-function" in the current
-directory.
 
-That program can be written in any language, making AWS Lambda usable
-with any language that can be uploaded in the ZIP file.
-
-A Perl program sample is provided.
+## AWS Lambda Information
 
 The AWS credentials are available in these environment variables:
 

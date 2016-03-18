@@ -1,7 +1,3 @@
-#!/usr/bin/env perl
-use strict;
-use warnings;
-
-my $event_json = shift;
-print "Lambda function event: $event_json\n";
-exit 0;
+#!/bin/bash
+set -e
+./bin/application "$@"
