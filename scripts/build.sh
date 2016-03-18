@@ -5,6 +5,9 @@ CUR_DIR=`pwd`
 SRC_DIR="$CUR_DIR/src"
 
 
+# Making sure build dir exists
+mkdir -p build
+
 
 echo "Compiling..."
 cd $SRC_DIR
